@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cheakout</title>   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="image/Meubel House_Logos-05.png">
+    <link rel="stylesheet" href="cheak.css">
+</head>
+<body>
+    <div class="home-container">
+
+         <!--Header Area start-->
+    <div class="header-area">
+        <div class="header-logo">
+            <a href="#"><img src="image/Frame 168.png"></a>
+        </div>
+        <div class="header-menu">
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        <div class="header-icon">
+            <i class="fa-solid fa-user-plus"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-plus"></i>
+        </div>
+    </div>
+    <!--Header Area End-->
+
+       <!--shop hero star-->
+       <div class="shop-hero">
+        <div class="tex">
+            <img src="image/Meubel House_Logos-05.png">
+         <h2>Checkout</h2>
+         <div class="option">
+             <a href="Home.html">Home</a>
+             <i class="fa fa-angle-right"></i>
+             <a href="cheak.html">Checkout</a>
+         </div>
+        </div>
+     </div>
+     <!--shop hero End-->
+
+     <!--Check hero start-->
+     <div class="check-hero">
+
+        <div class="check-left">
+            <h2>Billing details</h2>
+            <form>
+                <div class="f-l">
+                   <div class="f-one">
+                    <label class="lab-3" for="first">First name</label><br>
+                    <input class="in-five" type="text" id="first" name="first">
+                   </div>
+               <div class="f-two">
+                <label class="lab-3" for="last">Last name</label><br>
+                <input class="in-five" type="text" id="Last" name="Last">
+               </div>
+                </div>
+                <label class="lab" for="Company">Company Name (Optional)</label><br>
+                <input class="in" type="text" id="Company" name="Company"><br>
+                <label class="lab" for="country">Country / Region</label><br>
+                <select class="in-1" id="country" name="country">
+                    <option value="bd">Sri Lanka</option>
+                    <option value="in">Amarica</option>
+                    <option value="us">London</option>
+                </select><br>
+                    <label class="lab" for="address">Street address</label><br>
+                    <input class="in" type="text" id="address" name="address"><br>
+                    <label class="lab" for="town">Town / City</label><br>
+                    <input class="in" type="text" id="town" name="town"><br>
+                    <label class="lab" for="Province">Province</label><br>
+                    <select class="in-1" id="Province" name="Province">
+                        <option value="bd">Western Province</option>
+                        <option value="in">.... Province</option>
+                        <option value="us">Other</option>
+                    </select><br>
+                    <label class="lab" for="zip">ZIP Code</label><br>
+                    <input class="in" type="text" id="zip" name="zip"><br>
+                    <label class="lab" for="phone">Phone</label><br>
+                    <input class="in" type="number" id="phone" name="phone"><br>
+                    <label class="lab" for="email">Email</label><br>
+                    <input class="in" type="email" id="email" name="email"><br><br>
+                    <input class="in" type="text" placeholder="Additional information">
+            </form>
+        </div>
+
+        <div class="check-right">
+            <div class="pro-sub">
+                <div class="pro">
+                    <h4 class="pro-12">Product</h4>
+                    <p class="A a-1">Asgaard sofa  x  1</p>
+                    <p class="A a-2">Subtotal</p>
+                    <p class="A a-3">Total</p>
+                </div>
+                <div class="sub">
+                    <h4 class="pro-12">Subtotal</h4>
+                    <p class="A a-4">Rs. 250,000.00</p>
+                    <p class="A a-4">Rs. 250,000.00</p>
+                    <p class="A a-6">Rs. 250,000.00</p>
+                </div>
+            </div>
+            <hr>
+            <input class="order" type="radio" id="bank" name="bank" value="bank" checked>
+            <label class="place d-1" for="bank">Direct Bank Transfer</label>
+            <P class="bank-p">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.</P>
+            <input class="order" type="radio" id="direct" name="diract">
+            <label class="place" for="diract">Direct Bank Transfer</label><br>
+            <input class="order" type="radio" id="cash" name="cash">
+            <label class="place" for="cash">Cash On Delivery</label>
+            <p class="bank-p privacy">Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our<span>privacy policy.</span></p>
+
+           <div class="btn-100">
+            <a class="p-order" href="">Place order</a>
+           </div>
+        </div>
+
+     </div>
+     <!--Check hero End-->
+
+     
+      <!--Service start-->
+<div class="service">
+
+    <div class="serv-1">
+        <div class="img-09">
+            <img src="image/Group (2).png">
+        </div>
+        <div class="img-text-09">
+            <h3 class="h3-09">High Quality</h3>
+            <P class="qwe">crafted from top materials</P>
+        </div>
+    </div>
+
+    <div class="serv-1">
+        <div class="img-09">
+            <img src="image/Group (3).png">
+        </div>
+        <div class="img-text-09">
+            <h3 class="h3-09">Warranty Protection</h3>
+            <P class="qwe">Over 2 years</P>
+        </div>
+    </div>
+
+    <div class="serv-1">
+        <div class="img-09">
+            <img src="image/Vector.png">
+        </div>
+        <div class="img-text-09">
+            <h3 class="h3-09">Free Shipping</h3>
+            <P class="qwe">Order over 150 $</P>
+        </div>
+    </div>
+
+    <div class="serv-1">
+        <div class="img-09">
+            <img src="image/customer-support.png">
+        </div>
+        <div class="img-text-09">
+            <h3 class="h3-09">24 / 7 Support</h3>
+            <P class="qwe">Dedicated support</P>
+        </div>
+    </div>
+
+
+</div>
+<!--Service End-->
+
+
+<!--Footer start-->
+<div class="footer-area">
+    <div class="foot-left">
+        <h2>Funiro.</h2>
+        <p>400 University Drive Suite 200 Coral Gables,
+            FL 33134 USA</p>
+    </div>
+    <div class="foot-right">
+        <div class="link-1">
+            <h4>Links</h4>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="link-1">
+            <h4>Help</h4>
+            <ul>
+                <li><a href="">Payment Options</a></li>
+                <li><a href="">Returns</a></li>
+                <li><a href="">Privacy Policies</a></li>
+            </ul>
+        </div>
+
+        <div class="email">
+            <h4>Newsletter</h4>
+            <input type="email" placeholder="Enter your email address">
+        </div>
+
+        <div class="sub">
+            <a href="#">SUBSCRIBE</a>
+        </div>
+
+    </div>
+</div>
+<hr class="hr-1">
+
+<div class="copy">
+2023 furino. All rights reverved
+</div>
+<!--Footer End-->
+
+
+    </div>
+</body>
+</html>
